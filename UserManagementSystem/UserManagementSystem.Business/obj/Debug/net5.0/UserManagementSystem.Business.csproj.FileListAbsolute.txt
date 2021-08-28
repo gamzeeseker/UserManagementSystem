@@ -1,0 +1,17 @@
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\bin\Debug\net5.0\UserManagementSystem.Business.deps.json
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\bin\Debug\net5.0\UserManagementSystem.Business.dll
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\bin\Debug\net5.0\ref\UserManagementSystem.Business.dll
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\bin\Debug\net5.0\UserManagementSystem.Business.pdb
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\bin\Debug\net5.0\UserManagementSystem.DataAccess.dll
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\bin\Debug\net5.0\UserManagementSystem.Domain.dll
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\bin\Debug\net5.0\UserManagementSystem.DataAccess.pdb
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\bin\Debug\net5.0\UserManagementSystem.Domain.pdb
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\obj\Debug\net5.0\UserManagementSystem.Business.csprojAssemblyReference.cache
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\obj\Debug\net5.0\UserManagementSystem.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\obj\Debug\net5.0\UserManagementSystem.Business.AssemblyInfoInputs.cache
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\obj\Debug\net5.0\UserManagementSystem.Business.AssemblyInfo.cs
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\obj\Debug\net5.0\UserManagementSystem.Business.csproj.CoreCompileInputs.cache
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\obj\Debug\net5.0\UserManagementSystem.Business.csproj.CopyComplete
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\obj\Debug\net5.0\UserManagementSystem.Business.dll
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\obj\Debug\net5.0\ref\UserManagementSystem.Business.dll
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\obj\Debug\net5.0\UserManagementSystem.Business.pdb

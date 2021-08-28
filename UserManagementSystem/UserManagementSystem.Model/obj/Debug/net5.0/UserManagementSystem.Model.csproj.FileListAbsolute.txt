@@ -1,0 +1,12 @@
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Model\bin\Debug\net5.0\UserManagementSystem.Model.deps.json
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Model\bin\Debug\net5.0\UserManagementSystem.Model.dll
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Model\bin\Debug\net5.0\ref\UserManagementSystem.Model.dll
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Model\bin\Debug\net5.0\UserManagementSystem.Model.pdb
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Model\obj\Debug\net5.0\UserManagementSystem.Model.csprojAssemblyReference.cache
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Model\obj\Debug\net5.0\UserManagementSystem.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Model\obj\Debug\net5.0\UserManagementSystem.Model.AssemblyInfoInputs.cache
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Model\obj\Debug\net5.0\UserManagementSystem.Model.AssemblyInfo.cs
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Model\obj\Debug\net5.0\UserManagementSystem.Model.csproj.CoreCompileInputs.cache
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Model\obj\Debug\net5.0\UserManagementSystem.Model.dll
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Model\obj\Debug\net5.0\ref\UserManagementSystem.Model.dll
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Model\obj\Debug\net5.0\UserManagementSystem.Model.pdb
