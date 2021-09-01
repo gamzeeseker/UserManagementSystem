@@ -48,14 +48,14 @@
                     @Html.DisplayFor(modelItem => item.PhoneNumber)
                 </td>
                 <td>
-                    @if (User.IsInRole("Admin"))
+                    @if (User.IsInRole("ADMIN"))
                     {
                         @Html.ActionLink("Edit", "Edit", new { id = item.Id })
                     }
                     @*<button class="btn btn-primary Edit" data-id="@item.Id">Edit</button>*@
                 </td>
                 <td>
-                    @if (User.IsInRole("Admin"))
+                    @if (User.IsInRole("ADMIN"))
                     {
                         <button class="btn btn-danger Delete" data-id="@item.Id">Delete</button>
                     }
