@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -9,28 +10,40 @@ namespace UserManagementSystem.Model.DTOModels
 {
     public class UserRegisterDto
     {
-        [Required(ErrorMessage = "{0} alanı gereklidir")]
+        public string Id { get; set; }
+
+        [Required(ErrorMessage = "{0} is required.")]
+        [MaxLength(50, ErrorMessage = "Maximum area exceeded.")]
+        [Remote(action: "UserName", controller: "User", ErrorMessage = "This username already exists.")]
         public string UserName { get; set; }
 
-        [Required(ErrorMessage = "{0} alanı gereklidir")]
+        [Required(ErrorMessage = "{0} is required")]
+        [MaxLength(50, ErrorMessage = "Maximum area exceeded")]
+        public string FirstName { get; set; }
+
+        [Required(ErrorMessage = "{0} is required")]
+        [MaxLength(50, ErrorMessage = "Maximum area exceeded.")]
         public string LastName { get; set; }
 
-        [Required(ErrorMessage = "{0} alanı gereklidir")]
+        [Required(ErrorMessage = "{0} is required")]
         [EmailAddress(ErrorMessage = "Invalid Email Address")]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "{0} alanı gereklidir")]
+        [Required(ErrorMessage = "{0} is required")]
+        [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{8,15}$",
+            ErrorMessage = "Password must be between 8 and 20 characters and contain one uppercase letter, one lowercase letter, one digit and one special character.")]
         public string Password { get; set; }
 
-        [Required(ErrorMessage = "{0} alanı gereklidir")]
+        [Required(ErrorMessage = "{0} is required")]
         [Compare("Password")]
         public string ConfirmPassword { get; set; }
 
-        [Required(ErrorMessage = "{0} alanı gereklidir")]
+        [Required(ErrorMessage = "{0} is required")]
         [MinLength(10), MaxLength(11)]
         public string PhoneNumber { get; set; }
 
-        [Required(ErrorMessage = "{0} alanı gereklidir")]
-        public DateTime Birthday { get; set; }
+        [Required(ErrorMessage = "{0} is required")]
+        [DataType(DataType.Date)]
+        public DateTime Birthday { get; set; } = DateTime.Now;
     }
 }

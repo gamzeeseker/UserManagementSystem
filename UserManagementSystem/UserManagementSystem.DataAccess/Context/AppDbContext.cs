@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,15 @@ namespace UserManagementSystem.DataAccess.Context
 {
     public class AppDbContext : IdentityDbContext<UserEntity>
     {
-        public AppDbContext(DbContextOptions<AppDbContext> dbContext) : base(dbContext) { }
+        public AppDbContext(DbContextOptions<AppDbContext> dbContext) : base(dbContext)
+        {
+            this.ChangeTracker.LazyLoadingEnabled = true;            
+        }      
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+        }
+
     }
 }

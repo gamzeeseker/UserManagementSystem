@@ -15,3 +15,5 @@ C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\U
 C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\obj\Debug\net5.0\UserManagementSystem.Business.dll
 C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\obj\Debug\net5.0\ref\UserManagementSystem.Business.dll
 C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\obj\Debug\net5.0\UserManagementSystem.Business.pdb
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\bin\Debug\net5.0\UserManagementSystem.Model.dll
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem.Business\bin\Debug\net5.0\UserManagementSystem.Model.pdb

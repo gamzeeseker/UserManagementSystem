@@ -9,11 +9,11 @@ namespace UserManagementSystem.Model.DTOModels
 {
     public class LoginDto
     {
-        [Required(ErrorMessage = "{0} alanı gereklidir")]
-        [MaxLength(50, ErrorMessage = "Maksimum alan aşıldı")]
+        [Required(ErrorMessage = "{0} is required")]
+        [MaxLength(50)]
         public string UserName { get; set; }
 
-        [Required(ErrorMessage = "{0} alanı gereklidir")]
+        [Required(ErrorMessage = "{0} is required")]
         public string Password { get; set; }
         public bool RememberMe { get; set; }
     }

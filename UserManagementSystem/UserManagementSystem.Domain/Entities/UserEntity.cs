@@ -16,6 +16,10 @@ namespace UserManagementSystem.Domain.Entities
 
         [Required]
         [MaxLength(50)]
+        public string FirstName { get; set; }
+
+        [Required]
+        [MaxLength(50)]
         public string LastName { get; set; }
 
         [Required]
@@ -25,7 +29,8 @@ namespace UserManagementSystem.Domain.Entities
         public override string PasswordHash { get; set; }
 
         [Required]
-        [MinLength(10),MaxLength(11)]
+        [MinLength(10), MaxLength(11)]
+        //[DataType(DataType.PhoneNumber)]
         public override string PhoneNumber { get; set; }
 
         [Required]

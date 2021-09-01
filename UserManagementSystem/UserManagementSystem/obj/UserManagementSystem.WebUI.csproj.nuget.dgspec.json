@@ -38,6 +38,9 @@
               },
               "C:\\GitHubRepositories\\UserManagement\\UserManagementSystem\\UserManagementSystem\\UserManagementSystem.Domain\\UserManagementSystem.Domain.csproj": {
                 "projectPath": "C:\\GitHubRepositories\\UserManagement\\UserManagementSystem\\UserManagementSystem\\UserManagementSystem.Domain\\UserManagementSystem.Domain.csproj"
+              },
+              "C:\\GitHubRepositories\\UserManagement\\UserManagementSystem\\UserManagementSystem\\UserManagementSystem.Model\\UserManagementSystem.Model.csproj": {
+                "projectPath": "C:\\GitHubRepositories\\UserManagement\\UserManagementSystem\\UserManagementSystem\\UserManagementSystem.Model\\UserManagementSystem.Model.csproj"
               }
             }
           }
@@ -264,6 +267,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -345,6 +354,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[5.0.9, )"
             },

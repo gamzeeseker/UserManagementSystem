@@ -1,0 +1,20 @@
+﻿@model UserManagementSystem.Model.Models.DeleteModel
+
+@{
+
+    Layout = null;
+}
+
+<form id="DeleteForm" asp-action="Delete" method="POST" asp-anti-forgery="true">
+    <div>
+        <dl class="row">
+            @Html.AntiForgeryToken()
+            <dt class="col-sm-2">
+                @Html.HiddenFor(model => model.Id)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.HiddenFor(model => model.Id)
+            </dd>
+        </dl>
+    </div>
+</form>

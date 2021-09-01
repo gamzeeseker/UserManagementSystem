@@ -161,3 +161,12 @@ C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\U
 C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem\obj\Debug\net5.0\Razor\Views\User\DeleteForm.cshtml.g.cs
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem\obj\Debug\net5.0\Razor\Views\User\Edit.cshtml.g.cs
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem\obj\Debug\net5.0\UserManagementSystem.WebUI.MvcApplicationPartsAssemblyInfo.cs
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem\bin\Debug\net5.0\Castle.Core.dll
+C:\GitHubRepositories\UserManagement\UserManagementSystem\UserManagementSystem\UserManagementSystem\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
