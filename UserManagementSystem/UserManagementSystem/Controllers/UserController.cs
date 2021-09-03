@@ -29,7 +29,7 @@ namespace UserManagementSystem.WebUI.Controllers
             if (requestResult.Status == Model.Enum.ResultStatus.Success)
                 return View(requestResult.Data);
             else
-                return base.View(new List<Model.DTOModels.UserEditDto>());
+                return base.View(new List<UserRegisterDto>());
         }
 
         [HttpGet]

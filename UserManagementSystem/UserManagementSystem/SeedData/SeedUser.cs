@@ -22,7 +22,7 @@ namespace UserManagementSystem.WebUI.SeedData
         public async Task AddDefaultDataAsync()
         {
             var rol = appDbContext.Roles.Where(c => c.Name == "ADMIN").FirstOrDefault();
-            //var rol = await roleManager.FindByNameAsync("admin");
+
             if (rol == null)
             {
                 var newRol = new RoleEntity()

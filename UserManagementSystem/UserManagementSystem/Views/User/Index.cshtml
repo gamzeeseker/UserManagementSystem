@@ -1,5 +1,5 @@
 ﻿@using UserManagementSystem.Model.Models;
-@model IEnumerable<UserManagementSystem.Model.DTOModels.UserEditDto>
+@model IEnumerable<UserManagementSystem.Model.DTOModels.UserRegisterDto>
 
 @{
     ViewData["Title"] = "Index";
@@ -52,7 +52,6 @@
                     {
                         @Html.ActionLink("Edit", "Edit", new { id = item.Id })
                     }
-                    @*<button class="btn btn-primary Edit" data-id="@item.Id">Edit</button>*@
                 </td>
                 <td>
                     @if (User.IsInRole("ADMIN"))
@@ -66,6 +65,7 @@
 </table>
 <br />
 <a href="/User/Register" class="btn btn-primary">Add User</a>
+<a href="/Account/Logout" class="btn btn-primary">Logout</a>
 
 <div id="DeleteModal" class="modal" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">

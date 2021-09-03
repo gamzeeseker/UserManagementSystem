@@ -107,7 +107,7 @@ namespace UserManagementSystem
             services.AddScoped<IRoleStore<RoleEntity>, RoleStore<RoleEntity>>();
             services.AddScoped<ILookupNormalizer, UpperInvariantLookupNormalizer>();
             services.AddScoped<IRoleValidator<UserEntity>, RoleValidator<UserEntity>>();
-            // No interface for the error describer so we can add errors without rev'ing the interface
+
             services.AddScoped<IdentityErrorDescriber>();
             services.AddScoped<ISecurityStampValidator, SecurityStampValidator<UserEntity>>();
             services.AddScoped<ITwoFactorSecurityStampValidator, TwoFactorSecurityStampValidator<UserEntity>>();
@@ -155,9 +155,9 @@ namespace UserManagementSystem
                 ServiceProvider.GetService<AppDbContext>()
                 );
 
-             seedData.AddDefaultDataAsync().GetAwaiter().GetResult();              
-            
-          
+            seedData.AddDefaultDataAsync().GetAwaiter().GetResult();
+
+
         }
     }
 }

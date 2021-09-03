@@ -38,7 +38,7 @@
                     </div>
                 }
                 @Html.Label("User Name")
-                @Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })
+                @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", autocomplite = "false" })
                 <div>
                     @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "error" })
                 </div>

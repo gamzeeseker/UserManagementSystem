@@ -14,13 +14,7 @@ namespace UserManagementSystem.DataAccess.Context
     {
         public AppDbContext(DbContextOptions<AppDbContext> dbContext) : base(dbContext)
         {
-            this.ChangeTracker.LazyLoadingEnabled = true;            
-        }      
-
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);
+         
         }
-
     }
 }

@@ -24,19 +24,20 @@ namespace UserManagementSystem.Business.Services
             this._appDbContext = appDbContext;
         }
 
-        public async Task<ResultModelGeneic<List<Model.DTOModels.UserEditDto>>> GetAllUser()
+        public async Task<ResultModelGeneic<List<UserRegisterDto>>> GetAllUser()
         {
-            var list = new List<string>();
-            foreach (var dbEntityEntry in _appDbContext.ChangeTracker.Entries<UserEntity>())
-            {
-                list.Add(dbEntityEntry.Entity.Id);
-            }
+            // Test code
+            //var list = new List<string>();
+            //foreach (var dbEntityEntry in _appDbContext.ChangeTracker.Entries<UserEntity>())
+            //{
+            //    list.Add(dbEntityEntry.Entity.Id);
+            //}
 
-            var result = new ResultModelGeneic<List<Model.DTOModels.UserEditDto>>();
+            var result = new ResultModelGeneic<List<UserRegisterDto>>();
             result.Status = ResultStatus.Success;
-            result.Data = await _userManager.Users.Select(c => new UserEditDto()
+            result.Data = await _userManager.Users.Select(c => new UserRegisterDto()
             {
-                Id = c.Id,
+                Id=c.Id,
                 FirstName = c.FirstName,
                 LastName = c.LastName,
                 PhoneNumber = c.PhoneNumber,
@@ -90,9 +91,9 @@ namespace UserManagementSystem.Business.Services
 
             return result;
         }
-        public async Task<bool> IsExits(string id)
+        public async Task<bool> IsExits(string UserName)
         {
-            var user = await _userManager.FindByNameAsync(id);
+            var user = await _userManager.FindByNameAsync(UserName);
             return user != null;
         }
         public async Task<Model.DTOModels.UserEditDto> GetUserAsync(string id)
